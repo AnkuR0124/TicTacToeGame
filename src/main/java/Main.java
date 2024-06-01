@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) throws InvalidMoveException {
         GameController gameController = new GameController();
         List<Player> playerList = List.of(
-                new Player("Rudra",new Symbol('X'), PlayerType.HUMAN),
+                new Player("Ankur",new Symbol('X'), PlayerType.HUMAN),
                 new Player("Kira",new Symbol('O'), PlayerType.BOT)
         );
         Game game = gameController.startGame(3,playerList);
